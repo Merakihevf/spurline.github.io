@@ -83,195 +83,300 @@
     </div>
   </header><!-- End Header -->
 
-  <!-- ======= Hero Section ======= -->
-  <section id="hero">
-    <div class="hero-container">
-      <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
+ 
+<!-- ======= Hero Section ======= -->
+<section id="hero">
+  <div class="hero-container">
 
-        <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+    <div
+      id="heroCarousel"
+      class="carousel slide carousel-fade"
+      data-bs-ride="carousel"
+      data-bs-interval="5000"
+    >
 
-        <div class="carousel-inner" role="listbox">
+      <!-- Carousel Indicators -->
+      <ol
+        class="carousel-indicators"
+        id="hero-carousel-indicators">
+      </ol>
 
+      <!-- Carousel Slides -->
+      <div class="carousel-inner" role="listbox">
 
+        <!-- =========================================================
+             SLIDE 1: LAND & PLOT SALES
+        ========================================================== -->
+        <div class="carousel-item active land-property-slide">
 
-                    <!-- =========================================================
-              LAND & PLOT SALES SLIDE
-          ========================================================= -->
-          <div class="carousel-item active land-property-slide">
+          <!-- Background Video -->
+          <video
+            class="property-background-video"
+            autoplay
+            muted
+            loop
+            playsinline
+            preload="auto"
+          >
+            <source
+              src="assets/img/land-property.mp4"
+              type="video/mp4"
+            >
+            Your browser does not support HTML5 video.
+          </video>
 
-              <!-- Background Property Video -->
-              <video
-                  class="property-background-video"
-                  autoplay
-                  muted
-                  loop
-                  playsinline
-                  preload="auto">
+          <!-- Dark Overlay -->
+          <div class="property-overlay"></div>
 
-                  <source src="assets/img/land-property.mp4" type="video/mp4">
+          <!-- Content -->
+          <div class="carousel-container">
+            <div class="carousel-content property-content">
 
-                  Your browser does not support HTML5 video.
-              </video>
+              <h2 class="animate__animated animate__fadeInDown">
+                Land &amp; Plot
+                <span>Sales</span>
+              </h2>
 
-              <!-- Dark overlay -->
-              <div class="property-overlay"></div>
+              <h3 class="animate__animated animate__fadeInUp">
+                Secure Your Future with the Right Investment
+              </h3>
 
-              <!-- Main Content -->
-              <div class="carousel-container">
+              <div class="property-line"></div>
 
-                  <div class="carousel-content property-content">
+              <p class="property-description animate__animated animate__fadeInUp">
+                Discover prime land and ready-to-own plots in strategic
+                locations. Invest with confidence through secure,
+                transparent and flexible property solutions.
+              </p>
 
-                      <!-- Main Heading -->
-                      <h2 class="animate__animated animate__fadeInDown">
-                          Land &amp; Plot
-                          <span>Sales</span>
-                      </h2>
+              <!-- Property Features -->
+              <div class="property-features">
 
-                      <!-- Subtitle -->
-                      <h3 class="animate__animated animate__fadeInUp">
-                          Secure Your Future with the Right Investment
-                      </h3>
-
-                      <!-- Green underline -->
-                      <div class="property-line"></div>
-
-                      <!-- Description -->
-                      <p class="property-description animate__animated animate__fadeInUp">
-                          Discover prime land and ready-to-own plots in strategic
-                          locations. Invest with confidence through secure,
-                          transparent and flexible property solutions.
-                      </p>
-
-                      <!-- Features -->
-                      <div class="property-features">
-
-                          <!-- Feature 1 -->
-                          <div class="property-feature animate__animated animate__fadeInUp">
-                              <div class="feature-icon">
-                                  <i class="fas fa-map-marker-alt"></i>
-                              </div>
-
-                              <div class="feature-text">
-                                  <strong>Prime</strong>
-                                  <span>Locations</span>
-                              </div>
-                          </div>
-
-                          <!-- Feature 2 -->
-                          <div class="property-feature animate__animated animate__fadeInUp">
-                              <div class="feature-icon">
-                                  <i class="fas fa-shield-alt"></i>
-                              </div>
-
-                              <div class="feature-text">
-                                  <strong>Secure</strong>
-                                  <span>&amp; Legal</span>
-                              </div>
-                          </div>
-
-                          <!-- Feature 3 -->
-                          <div class="property-feature animate__animated animate__fadeInUp">
-                              <div class="feature-icon">
-                                  <i class="fas fa-users"></i>
-                              </div>
-
-                              <div class="feature-text">
-                                  <strong>Flexible</strong>
-                                  <span>Payment Plans</span>
-                              </div>
-                          </div>
-
-                          <!-- Feature 4 -->
-                          <div class="property-feature animate__animated animate__fadeInUp">
-                              <div class="feature-icon">
-                                  <i class="fas fa-chart-line"></i>
-                              </div>
-
-                              <div class="feature-text">
-                                  <strong>High ROI</strong>
-                                  <span>Potential</span>
-                              </div>
-                          </div>
-
-                      </div>
-
-                      <!-- CTA Button -->
-                      <div class="property-button-wrapper animate__animated animate__fadeInUp">
-
-                          <a href="#properties"
-                            class="property-cta-btn scrollto">
-
-                              View Available Plots
-
-                              <i class="fas fa-arrow-right"></i>
-
-                          </a>
-
-                      </div>
-
+                <div class="property-feature animate__animated animate__fadeInUp">
+                  <div class="feature-icon">
+                    <i class="fas fa-map-marker-alt"></i>
                   </div>
 
-              </div>
-
-          </div>
-
-          <!-- Slide 1 -->
-          <div class="carousel-item">
-            <video  autoplay muted loop>
-            <source src="assets\img\drone2.mp4" type="video/mp4">
-            </video>
-            <div class="carousel-container">
-              <div class="carousel-content">
-                <h2 class="animate__animated animate__fadeInDown">Grow Your Business</h2>
-                <p class="animate__animated animate__fadeInUp">Survey & Mapping | U&R Planning | GIS Systems Development |  |Environmental Impact Assessment & Audit | Remote Sensing|</p>
-                <div>
-                  <a href="SHOPIFYLINK" class="btn-get-started animate__animated animate__fadeInUp scrollto">UAVs Solutions</a>
+                  <div class="feature-text">
+                    <strong>Prime</strong>
+                    <span>Locations</span>
+                  </div>
                 </div>
-              </div>
-            </div>
-          </div>
 
-          
+                <div class="property-feature animate__animated animate__fadeInUp">
+                  <div class="feature-icon">
+                    <i class="fas fa-shield-alt"></i>
+                  </div>
 
-          <!-- Slide 2 -->
-          <div class="carousel-item" style=" background-image: url(assets/img/slide/slide-2.jpg);">
-            <div class="carousel-container">
-              <div class="carousel-content">
-                <h2 class="animate__animated animate__fadeInDown">Survey and Mapping</h2>
-                <p class="animate__animated animate__fadeInUp">Survey and mapping are critical processes used to measure, document, and represent the physical world, both on the surface of the Earth and below it. These practices are essential in various fields, including land management, construction, urban planning, and environmental monitoring.</p>
-                <div>
-                  <a href="Personnel.html" class="btn-get-started animate__animated animate__fadeInUp scrollto">Consult Us</a>
+                  <div class="feature-text">
+                    <strong>Secure</strong>
+                    <span>&amp; Legal</span>
+                  </div>
                 </div>
-              </div>
-            </div>
-          </div>
 
-          <!-- Slide 3 -->
-          <div class="carousel-item" style="background-image: url(assets/img/slide/slide-3.jpg);">
-            <div class="carousel-container">
-              <div class="carousel-content">
-                <h2 class="animate__animated animate__fadeInDown">GIS Remote sensing</h2>
-                <p class="animate__animated animate__fadeInUp">Geographic Information Systems (GIS) spatial planning, mapping, and remote sensing services play a pivotal role in modern urban and environmental planning, as well as various other industries. These services utilize cutting-edge technology to capture, analyze, and visualize spatial data, ultimately providing invaluable insights for decision-making and resource management. </p>
-                <div>
-                  <a href="Personnel.html" class="btn-get-started animate__animated animate__fadeInUp scrollto">Request Services</a>
+                <div class="property-feature animate__animated animate__fadeInUp">
+                  <div class="feature-icon">
+                    <i class="fas fa-users"></i>
+                  </div>
+
+                  <div class="feature-text">
+                    <strong>Flexible</strong>
+                    <span>Payment Plans</span>
+                  </div>
                 </div>
+
+                <div class="property-feature animate__animated animate__fadeInUp">
+                  <div class="feature-icon">
+                    <i class="fas fa-chart-line"></i>
+                  </div>
+
+                  <div class="feature-text">
+                    <strong>High ROI</strong>
+                    <span>Potential</span>
+                  </div>
+                </div>
+
               </div>
+
+              <!-- CTA -->
+              <div class="property-button-wrapper animate__animated animate__fadeInUp">
+                <a
+                  href="#properties"
+                  class="property-cta-btn scrollto"
+                >
+                  View Available Plots
+                  <i class="fas fa-arrow-right"></i>
+                </a>
+              </div>
+
             </div>
           </div>
 
         </div>
 
-        <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
-        </a>
 
-        <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
-          <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
-        </a>
+        <!-- =========================================================
+             SLIDE 2: UAV SOLUTIONS
+        ========================================================== -->
+        <div class="carousel-item">
+
+          <!-- Background Video -->
+          <video
+            autoplay
+            muted
+            loop
+            playsinline
+          >
+            <source
+              src="assets/img/drone2.mp4"
+              type="video/mp4"
+            >
+            Your browser does not support HTML5 video.
+          </video>
+
+          <!-- Content -->
+          <div class="carousel-container">
+            <div class="carousel-content">
+
+              <h2 class="animate__animated animate__fadeInDown">
+                Grow Your Business
+              </h2>
+
+              <p class="animate__animated animate__fadeInUp">
+                Survey &amp; Mapping |
+                Urban &amp; Regional Planning |
+                GIS Systems Development |
+                Environmental Impact Assessment &amp; Audit |
+                Remote Sensing
+              </p>
+
+              <div>
+                <a
+                  href="SHOPIFYLINK"
+                  class="btn-get-started animate__animated animate__fadeInUp scrollto"
+                >
+                  UAVs Solutions
+                </a>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+
+        <!-- =========================================================
+             SLIDE 3: SURVEY & MAPPING
+        ========================================================== -->
+        <div
+          class="carousel-item"
+          style="background-image: url('assets/img/slide/slide-2.jpg');"
+        >
+
+          <div class="carousel-container">
+            <div class="carousel-content">
+
+              <h2 class="animate__animated animate__fadeInDown">
+                Survey &amp; Mapping
+              </h2>
+
+              <p class="animate__animated animate__fadeInUp">
+                Survey and mapping are critical processes used to measure,
+                document, and represent the physical world, both on the
+                surface of the Earth and below it. These practices are
+                essential in various fields, including land management,
+                construction, urban planning, and environmental monitoring.
+              </p>
+
+              <div>
+                <a
+                  href="Personnel.html"
+                  class="btn-get-started animate__animated animate__fadeInUp scrollto"
+                >
+                  Consult Us
+                </a>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+
+        <!-- =========================================================
+             SLIDE 4: GIS & REMOTE SENSING
+        ========================================================== -->
+        <div
+          class="carousel-item"
+          style="background-image: url('assets/img/slide/slide-3.jpg');"
+        >
+
+          <div class="carousel-container">
+            <div class="carousel-content">
+
+              <h2 class="animate__animated animate__fadeInDown">
+                GIS &amp; Remote Sensing
+              </h2>
+
+              <p class="animate__animated animate__fadeInUp">
+                Geographic Information Systems (GIS), spatial planning,
+                mapping, and remote sensing services play a pivotal role
+                in modern urban and environmental planning, as well as
+                various other industries. These services utilize
+                cutting-edge technology to capture, analyze, and visualize
+                spatial data, providing valuable insights for decision-making
+                and resource management.
+              </p>
+
+              <div>
+                <a
+                  href="Personnel.html"
+                  class="btn-get-started animate__animated animate__fadeInUp scrollto"
+                >
+                  Request Services
+                </a>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
 
       </div>
+
+
+      <!-- =========================================================
+           CAROUSEL CONTROLS
+      ========================================================== -->
+
+      <a
+        class="carousel-control-prev"
+        href="#heroCarousel"
+        role="button"
+        data-bs-slide="prev"
+      >
+        <span
+          class="carousel-control-prev-icon bi bi-chevron-left"
+          aria-hidden="true"
+        ></span>
+      </a>
+
+      <a
+        class="carousel-control-next"
+        href="#heroCarousel"
+        role="button"
+        data-bs-slide="next"
+      >
+        <span
+          class="carousel-control-next-icon bi bi-chevron-right"
+          aria-hidden="true"
+        ></span>
+      </a>
+
     </div>
-  </section><!-- End Hero -->
+  </div>
+</section>
+<!-- End Hero -->
 
  
 
